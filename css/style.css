@@ -1,0 +1,70 @@
+.don-bosco {
+    text-align: right !important;
+    align-items: end !important;
+    margin-right: 0px !important;
+    height: 100vh;
+}
+
+.contend {
+    text-align: center;
+    padding: 50px, 50px, 50px, 50px !important;
+    height: 100vh !important;
+}
+
+.logo-donbosco {
+    width: 12rem;
+    margin-left: 15px;
+}
+.align-logo{
+    text-align: left !important;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+}
+
+.subtitle {
+    margin-top: 0px;
+    font-size: 2rem;
+    color: gray;
+}
+
+.btn-1 {
+    background-color: #c52734 !important;
+    border-color: #c52734 !important;
+    border-radius: 35px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+
+.btn-2 {
+    border: 2px solid #c52734 !important;
+    border-radius: 35px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    color: #c52734 !important;
+}
+
+.btn-2:hover {
+    background-color: #c52734 !important;
+    border: 1px solid #c52734 !important;
+    border-radius: 35px;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    color: #ffffff !important;
+}
+
+.contruction{
+    width: 20vw;
+}
+
+
+    @media only screen and (max-width: 900px) {
+        .limit-space {
+          display: none;
+        }
+        .contruction{
+            width: 35vw;
+        }
+      }
